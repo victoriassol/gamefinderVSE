@@ -1,0 +1,150 @@
+.logo {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  z-index: 1;
+}
+
+.background.imgs {
+  position: relative;
+}
+
+#img1 {
+  position: absolute;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #303030;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 28.875rem;
+  padding: 2em;
+  color: #FFFFFF;
+  border-radius: 12px;
+  right: 4em;
+  top: 4em;
+}
+
+.login-with {
+  width: 100%;
+  align-self: center;
+  padding: 0.5em;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  margin: 0.6rem auto 0.6rem auto;
+  padding: 1em;
+  border-radius: 4px;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.login-inputxt {
+  width: 100%;
+  align-self: center;
+  padding: 0.5em;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  margin: 0.5rem auto 0.5rem auto;
+  border-radius: 4px;
+}
+
+#submit-btn {
+  width: 100%;
+  align-self: center;
+  padding: 0.5em;
+  background-color: #4CC986;
+  color: #FFFFFF;
+  padding: 1em;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  margin: 1rem auto 1rem auto;
+  border-radius: 4px;
+  border-style: none;
+}
+
+h2 {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 0.5em auto auto auto;
+}
+
+p {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.remb-me {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+#forgot-psw {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #4CC986;
+}
+
+.register {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+span {
+  font-size: 0.875rem;
+}
+
+.hrorhr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.6rem auto;
+}
+
+hr {
+  width: 13rem;
+  display: inline-block;
+  position: relative;
+}
+
+#reg-now {
+  color: #4CC986;
+}
+
+#password {
+  background-image: url("./images/WithIcon/Eye.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+#remember-me {
+  border-radius: 10px;
+}/*# sourceMappingURL=styles.css.map */
